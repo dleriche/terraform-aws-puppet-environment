@@ -1,7 +1,7 @@
 pubdomain = "aws.tsedemos.com"
 pridomain = "puppet.vm"
 aws_sshkey = "dj.leriche"
-aws_sshkey_path = "~/.ssh/dj-control-repo.pem"
+aws_sshkey_path = "/Users/dj.leriche/Repos/tform-aws/keys/djleriche.pem"
 user_name = "dj.leriche"
 git_url = "git@github.com:dleriche/control-repo"
 prefix = "dj"
