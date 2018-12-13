@@ -40,7 +40,7 @@ variable pp_application { default = "generic" }
 # Puppet Master Provisioning Variables
 #--------------------------------------------------------------
 variable puppet_ami        { default = "ami-6f68cf0f" }
-variable pe_version        { default = "2018.1.2" }
+variable pe_version        { default = "2019.0.1" }
 variable git_pri_key       { default = "/app/keys/control-repo" }
 variable git_pub_key       { default = "/app/keys/control-repo" }
 variable git_url           { 
