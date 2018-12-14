@@ -68,7 +68,7 @@ variable linux_instance_type { default = "t2.micro" }
 #--------------------------------------------------------------
 # Windows Server Provisioning Variables
 #--------------------------------------------------------------
-variable windows_ami      { default = "ami-d7a114af" }
+variable windows_ami      { default = "ami-08c5cff27e6798141" }
 variable windows_password { default = "Adm1nistrat0r" }
 variable windows_instance_type { default = "t2.small" }
 
