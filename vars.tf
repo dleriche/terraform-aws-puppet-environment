@@ -62,7 +62,7 @@ variable jenkins_pp_environment { default = "production"}
 #--------------------------------------------------------------
 variable linux_name          { default = "linux" }
 # variable linux_ami           { }
-variable linux_instance_type { default = "t2.micro" }
+variable linux_instance_type { default = "m4.large" }
 
 
 #--------------------------------------------------------------
@@ -70,7 +70,7 @@ variable linux_instance_type { default = "t2.micro" }
 #--------------------------------------------------------------
 variable windows_ami      { default = "ami-08c5cff27e6798141" }
 variable windows_password { default = "Adm1nistrat0r" }
-variable windows_instance_type { default = "t2.small" }
+variable windows_instance_type { default = "m4.large" }
 
 #--------------------------------------------------------------
 # CD4PE Provisioning Variables
