@@ -68,7 +68,7 @@ variable linux_instance_type { default = "m4.large" }
 #--------------------------------------------------------------
 # Windows Server Provisioning Variables
 #--------------------------------------------------------------
-variable windows_ami      { default = "ami-08c5cff27e6798141" }
+variable windows_ami      { default = "ami-07c77fe35092981e9" }
 variable windows_password { default = "Adm1nistrat0r" }
 variable windows_instance_type { default = "m4.large" }
 
